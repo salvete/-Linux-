@@ -1,0 +1,5 @@
+1.首先在windows系统中开辟一个100G的空间，将拥有的镜像文件刻录到U盘中
+2.重启，进行安装，自定义安装，注意/boot分配200MB；/分配50G，swap分配8G，剩下的大约40G分配给/home
+3.sudo apt install watchdog;sudo systemctl start watchdog.service;sudo
+systemctl start watchdog.service;驱动管理器更新驱动
+4.重启，sudo -i 切换到root身份后才可以重启/关机
